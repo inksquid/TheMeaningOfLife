@@ -49,4 +49,12 @@ f.setAccessible(true);
 		}
 		return new tERRIBLEcODEeXAMPLE();
 	}
+		
+		public static Object getTHATTTT()
+		{
+			
+        List<Object> randomThings = Arrays.asList(new String(), new Object(), new tERRIBLEcODEeXAMPLE(), "fuckin roulette bois");
+        return randomThings.get(new Random().nextInt(randomThings.size() - 1));
+			
+		}
   }
