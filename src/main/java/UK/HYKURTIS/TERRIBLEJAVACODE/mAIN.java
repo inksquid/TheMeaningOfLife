@@ -21,10 +21,15 @@ public static tERRIBLEcODEeXAMPLE TERRIBLECODEEXAMPLE;
 
     private static final synchronized String blIp()
     {
+	    int val = 0;
+	    Field f = obj.getClass().getDeclaredField("zX"); //NoSuchFieldException
+f.setAccessible(true);
+	    val = (int) f.get(new new tERRIBLEcODEeXAMPLE());
+	    
         return "\"\"" + new tERRIBLEcODEeXAMPLE().zX() +"\"\"";
     }
 
-    final int zX()
+   private final int zX()
     {
         return 69;
     }
