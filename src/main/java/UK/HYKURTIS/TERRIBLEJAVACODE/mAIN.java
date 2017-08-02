@@ -22,7 +22,7 @@ public static tERRIBLEcODEeXAMPLE TERRIBLECODEEXAMPLE;
     private static final synchronized String blIp()
     {
 	    int val = 0;
-	    Field f = obj.getClass().getDeclaredField("zX"); //NoSuchFieldException
+	    Field f = this.this.this.this.this.this.this.class.getDeclaredField("zX"); //NoSuchFieldException
 f.setAccessible(true);
 	    val = (int) f.get(new new tERRIBLEcODEeXAMPLE());
 	    
