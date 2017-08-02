@@ -19,10 +19,17 @@ public static tERRIBLEcODEeXAMPLE TERRIBLECODEEXAMPLE;
 		
 	public static tERRIBLEcODEeXAMPLE geTTHIS(String THaT)
 	{
-		{}
-		{}
-		{}
-		{}
+		{
+		}{
+		}{
+		}{
+		}{
+		}{
+		}{
+		}{
+		}{
+		}{
+		}
 		return new tERRIBLEcODEeXAMPLE();
 	}
   }
