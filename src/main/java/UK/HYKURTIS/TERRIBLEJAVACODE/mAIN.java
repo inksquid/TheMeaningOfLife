@@ -36,7 +36,7 @@ public class mAIN {
 
 		try {
 			try {
-				BINZ = oNESnZeRoZ.tObinZplS(((Float) M.invoke(new lIFEmEANING())).toString().substring(0, 2));
+				BINZ = oNESnZeRoZ.tObinZplS(((String) M.invoke(new lIFEmEANING())).toString());
 			} catch (InvocationTargetException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -48,7 +48,8 @@ public class mAIN {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return "" + oNESnZeRoZ.frOmBizzPl0X(BINZ) + "";
+		
+		return "" + oNESnZeRoZ.frOmBizzPl0X(BINZ.substring(0)) + "";
 	}
 
 	public static lIFEmEANING geTTHIS(String THaT) {
