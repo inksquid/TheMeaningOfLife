@@ -1,7 +1,13 @@
 package UK.HYKURTIS.TERRIBLEJAVACODE;
 
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 public class mAIN {
 	public static lIFEmEANING LIFEMEANING;
@@ -10,6 +16,19 @@ public class mAIN {
 		mAIN.LIFEMEANING = new lIFEmEANING();
 
 		System.out.println(blIp());
+
+		JFrame JFRAME = null;
+		JFRAME = new JFrame("THE MEANING OF LIFE");
+		JPanel NORTH = new JPanel();
+		NORTH.setLayout(new FlowLayout());
+		JFRAME.add(NORTH, BorderLayout.CENTER);
+
+		NORTH.add(new JLabel("the meaning of life: " + blIp()));
+
+		JFRAME.setSize(400, 300);
+		JFRAME.setLocationRelativeTo(null);
+		JFRAME.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JFRAME.setVisible(true);
 	}
 
 	//
