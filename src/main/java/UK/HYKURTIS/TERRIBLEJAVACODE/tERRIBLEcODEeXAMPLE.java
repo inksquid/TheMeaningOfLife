@@ -1,5 +1,0 @@
-package UK.HYKURTIS.TERRIBLEJAVACODE;
-
-public class tERRIBLEcODEeXAMPLE {
-
-}
