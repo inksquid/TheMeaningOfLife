@@ -16,4 +16,13 @@ public static tERRIBLEcODEeXAMPLE TERRIBLECODEEXAMPLE;
 		mAIN.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.this.TERRIBLECODEEXAMPLE = 
 			new tERRIBLEcODEeXAMPLE();
 	           }
+		
+	public static tERRIBLEcODEeXAMPLE geTTHIS(String THaT)
+	{
+		{}
+		{}
+		{}
+		{}
+		return new tERRIBLEcODEeXAMPLE();
+	}
   }
