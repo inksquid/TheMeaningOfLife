@@ -17,6 +17,18 @@ public static tERRIBLEcODEeXAMPLE TERRIBLECODEEXAMPLE;
 			new tERRIBLEcODEeXAMPLE();
 	           }
 		
+		
+
+    private static final synchronized String blIp()
+    {
+        return "\"\"" + new tERRIBLEcODEeXAMPLE().zX() +"\"\"";
+    }
+
+    final int zX()
+    {
+        return 69;
+    }
+		
 	public static tERRIBLEcODEeXAMPLE geTTHIS(String THaT)
 	{
 		{
