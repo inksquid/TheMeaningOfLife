@@ -27,7 +27,7 @@ public class mAIN {
 
 		JFRAME.setSize(400, 300);
 		JFRAME.setLocationRelativeTo(null);
-		JFRAME.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JFRAME.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		JFRAME.setVisible(true);
 	}
 
